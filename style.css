@@ -1,0 +1,83 @@
+body{
+    background-color:white;
+    padding:20px;
+}
+#title{
+    text-align: center;
+    background-color: rgb(77, 210, 255);
+    padding:10px;
+}
+#other_sources{
+    background-color: rgb(77, 210, 255);
+    padding:1em;
+    text-align: center;
+}
+ul#source_list li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 10px;
+    font-size: 15px;
+}
+#border_text{
+    border: 5px solid;
+    border-color: rgb(0, 163, 204);
+    background-color: white;
+}
+#text{
+    padding:10px;
+}
+table .software_column{
+    padding:5px;
+    background-color: rgb(51, 173, 255);
+}
+table .function_column{
+    padding:5px;
+    background-color: rgb(51, 173, 255);
+}
+table .level_column{
+    padding:5px;
+    background-color: rgb(51, 173, 255);
+}
+table .software{
+    padding:5px;
+    background-color: rgb(102, 194, 255);
+}
+table .function{
+    padding:5px;
+    background-color: rgb(128, 204, 255);
+}
+table .level{
+    padding:5px;
+    background-color: rgb(102, 194, 255);
+}
+a:link{
+    color: rgba(5, 156, 96, 0.97);
+}
+a:visited{
+    color: #0071d9;
+}
+a:hover {
+    background-color: #5ecdff;
+}
+.topnav {
+    overflow: hidden;
+    background-color:rgb(77, 210, 255);
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: ;
+}
