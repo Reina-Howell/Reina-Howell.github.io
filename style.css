@@ -80,3 +80,12 @@ a:hover {
 .topnav a.active {
     background-color: #4CAF50;
 }
+#guess_display{
+padding: 10px;
+}
+#guess_form{
+padding: 10px;
+}
+#guess_status{
+padding: 10px;
+}
