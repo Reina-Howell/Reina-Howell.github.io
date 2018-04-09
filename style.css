@@ -80,3 +80,13 @@ a:hover {
 .topnav a.active {
     background-color: #4CAF50;
 }
+#wordguesser_border{
+    background-color: rgb(204, 238, 255);
+    border: 5px solid;
+    border-color: rgb(0, 163, 204);
+}
+#tic_tac_border{
+    border: 5px solid;
+    border-color: rgb(0, 163, 204);
+    background-color: white;
+}
