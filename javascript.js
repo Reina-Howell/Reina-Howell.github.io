@@ -5,7 +5,8 @@ var guessInput = document.getElementById("guess_input");
 var guessStatus = document.getElementById("guess_status");
 
 // Initialize game state variables
-var secretWord = "banana";
+var secretWords = ["computer", "phone", "robots"];
+var secretWord = secretWords[Math.floor(Math.random()*secretWords.length)];
 var guessedWord = [];
 var guessedLetters = [];
 for (var i = 0; i < secretWord.length; i++) {
@@ -61,16 +62,3 @@ guessForm.addEventListener("submit", function(event) {
     guessInput.value = "";
 });
 displayGuessedWord();
-
-// Step 0: Read through the code and understand it
-// Step 1: Implement guessLetter
-// Step 2: Implement hasWon
-// Bonus Steps:
-// - Randomly generate a word for each game
-//   by pulling from an array
-// - Come up with a scoring mechanism --
-//    you can declare game over in a # of guesses
-//    or just track number of guesses and display it
-// - Display the letters they've already guessed
-// - Implement error checking for duplicate guesses
-// - Make way cooler win and lose states!
